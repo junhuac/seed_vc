@@ -1,0 +1,3 @@
+[submodule "src/seed_vc"]
+	path = src/seed_vc
+	url = https://github.com/junhuac/seed-vc.git
