@@ -1,9 +1,6 @@
 [submodule "src/seed_vc"]
 	path = src/seed_vc
 	url = git@github.com:junhuac/seed-vc.git
-[submodule "src/descript-audio-codec"]
-	path = src/descript-audio-codec
-	url = git@github.com:junhuac/descript-audio-codec.git
 [submodule "src/audiotools"]
 	path = src/audiotools
 	url = git@github.com:junhuac/audiotools.git
