@@ -34,3 +34,14 @@ python3 -m twine upload dist/seed_vc-0.1.0*
 Tip: For a dry run against TestPyPI first:
 
 python3 -m twine upload --repository testpypi dist/seed_vc-0.1.0*
+
+## Usage:
+After pip install seed-vc, users get these commands:
+
+seed-vc-app — runs seed_vc/app_vc.py
+seed-vc-app-v2 — runs seed_vc/app_vc_v2.py
+seed-vc-app-combined — runs seed_vc/app.py
+seed-vc-infer-v1 — runs seed_vc/inference.py
+seed-vc-infer-v2 — runs seed_vc/inference_v2.py
+seed-vc-train — runs seed_vc/train.py
+seed-vc-eval — runs seed_vc/eval.py
