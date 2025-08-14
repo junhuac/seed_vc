@@ -47,7 +47,9 @@ dependencies = [
   "flatten_dict",
   "julius",
   "importlib_resources",
-  "tensorboard"
+  "tensorboard",
+  "randomname",
+  "tqdm"
 ]
 
 [project.optional-dependencies]
