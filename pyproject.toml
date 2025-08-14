@@ -45,7 +45,8 @@ dependencies = [
   "torchaudio>=2.1",
   "torchvision>=0.16",
   "flatten_dict",
-  "julius"
+  "julius",
+  "importlib_resources"
 ]
 
 [project.optional-dependencies]
