@@ -105,8 +105,7 @@ audiocodec = [
 ]
 
 audiotools = [
-  "*.md", "LICENSE", "*.yml", "*.yaml", "*.json","*.html",
-  "audiotools/*",
-  "audiotools/audiotools/core/templates/*"
+  "*.md", "LICENSE", "*.yml", "*.yaml", "*.json", "*.html",
+  "audiotools/*", "audiotools/**/*"
 ]
 
