@@ -46,7 +46,8 @@ dependencies = [
   "torchvision>=0.16",
   "flatten_dict",
   "julius",
-  "importlib_resources"
+  "importlib_resources",
+  "tensorboard"
 ]
 
 [project.optional-dependencies]
