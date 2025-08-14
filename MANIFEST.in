@@ -2,7 +2,7 @@
 include pyproject.toml
 
 # Include package documentation and licenses from src
-recursive-include src/seed_vc *.md *.MD *.yml *.yaml *.json LICENSE *.bin
+recursive-include src/seed_vc src/audiocodec src/audiotools *.md *.MD *.yml *.yaml *.json LICENSE *.bin *.html
 
 # Include config directories and example audio paths
 recursive-include src/seed_vc/configs *
