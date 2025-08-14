@@ -70,7 +70,7 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["seed_vc*"]
+include = ["seed_vc*", "audio*"]
 
 [project.scripts]
 seed-vc-app = "seed_vc._entry:app"
@@ -91,5 +91,18 @@ seed_vc = [
   "configs/*.yml", "configs/*.yaml", "configs/*.json",
   "configs/**/*",
   "examples/*", "examples/**/*"
+]
+
+audiocodec = [
+  "*.md", "LICENSE", "*.yml", "*.yaml", "*.json",
+  "assets/*",
+  "conf/*.yml", "conf/*.yaml", "conf/*.json",
+  "dac/*",
+  "scripts/*"
+]
+
+audiotools = [
+  "*.md", "LICENSE", "*.yml", "*.yaml", "*.json",
+  "audiotools/*"
 ]
 
