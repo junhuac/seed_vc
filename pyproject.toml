@@ -10,7 +10,7 @@ readme = { file = "src/seed_vc/README.md", content-type = "text/markdown" }
 requires-python = ">=3.10"
 license = { file = "src/seed_vc/LICENSE" }
 authors = [
-  { name = "Song Ting", email = "plachtaa@github.com" },
+  { name = "Songting Liu", email = "lius0114@e.ntu.edu.sg" },
   { name = "Junhua Chang", email = "junhuac@gmail.com" }
 ]
 keywords = ["voice conversion", "speech", "audio", "deep learning", "seed-vc"]
