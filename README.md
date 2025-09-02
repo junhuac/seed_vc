@@ -19,21 +19,21 @@ python3 -m build
 
 This creates:
 
-dist/seed_vc-0.4.2-py3-none-any.whl
+dist/seed_vc-0.4.3-py3-none-any.whl
 
-dist/seed_vc-0.4.2.tar.gz
+dist/seed_vc-0.4.3.tar.gz
 
 ## Test install: 
-python -m venv .venv && .venv/bin/pip install dist/seed_vc-0.4.2-*.whl
+python -m venv .venv && .venv/bin/pip install dist/seed_vc-0.4.3-*.whl
 
 ## Upload:
 Upload only your package files (not all files in dist)
 
-python3 -m twine upload dist/seed_vc-0.4.2*
+python3 -m twine upload dist/seed_vc-0.4.3*
 
 Tip: For a dry run against TestPyPI first:
 
-python3 -m twine upload --repository testpypi dist/seed_vc-0.4.2*
+python3 -m twine upload --repository testpypi dist/seed_vc-0.4.3*
 
 ## Usage:
 After pip install seed-vc, users get these commands:
